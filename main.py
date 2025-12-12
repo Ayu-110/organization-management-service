@@ -13,14 +13,8 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Configuration - HARDCODED FOR NOW
-MONGODB_URL = "mongodb+srv://ayu:mypassword@cluster0.vhd1wyh.mongodb.net/?appName=Cluster0"
-SECRET_KEY = "902f8e0572c8e1154ead329038aae8a6b4873ac68afaeccaeee6768765c637f1"
-ALGORITHM = "HS256"
-ACCESS_TOKEN_EXPIRE_MINUTES = 30
-
-# Configuration
-MONGODB_URL = "mongodb+srv://ayu:mypassword@cluster0.vhd1wyh.mongodb.net/?appName=Cluster0"
-SECRET_KEY = "902f8e0572c8e1154ead329038aae8a6b4873ac68afaeccaeee6768765c637f1"
+MONGODB_URL = "mongodb+srv://<Database_name>:<password>@cluster0.vhd1wyh.mongodb.net/?appName=Cluster0"
+SECRET_KEY = "anylongstring"
 ALGORITHM = "HS256"
 ACCESS_TOKEN_EXPIRE_MINUTES = 30
 
